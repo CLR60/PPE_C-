@@ -1,0 +1,25 @@
+Schéma relationnel :
+
+UTILISATEUR( id_utilisateur, login_utlisateur, mot_de_passe)
+Clé primaire : id_utilisateur
+
+CLASSE( id_classe, libelle_classe)
+Clé primaire : id_classe
+
+ELEVE( id_eleve, nom_eleve, prenom_eleve, date_naissance_eleve, portable_eleve,
+id_classe_eleve, tel_parent_eleve, tiers_temps_eleve, commentaires_sante_eleve)
+Clé primaire : id_eleve
+Clé étrangère : id_classe_eleve fait référence à id_classe dans la classe CLASSE
+
+VISITE( id_visite, id_eleve_visite, lieu_visite, date_visite, heure_debut_visite,
+heure_fin_visite, motif_visite, commentaire_visite, suite_visite, parent_prevenu_visite)
+Clé primaire : id_visite, id_eleve
+Clé étrangère : id_eleve_visite fait référence à id_eleve dans la table ELEVE
+
+MEDICAMENT( id_medicament, nom_medicament)
+Clé primaire : id_medicament
+
+QUANTITE_MEDIC( id_medicament, id_visite, qte_medic)
+Clé primaire : id_medicament, id_visite
+Clé étrangère : id_medicament fait référence à id_medicament dans le table MEDICAMENT,
+id_visite fait référence à id_visite dans le table VISITE
