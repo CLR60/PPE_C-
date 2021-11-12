@@ -1,0 +1,2 @@
+C:\Users\admin\Desktop\CLEMENT_BTS2\Mr Idasiak\C#\Dev_en_couche\GestionUtilisateurs\UtilisateursBLL\obj\Debug\UtilisateursBLL.csprojAssemblyReference.cache
+C:\Users\admin\Desktop\CLEMENT_BTS2\Mr Idasiak\C#\Dev_en_couche\GestionUtilisateurs\UtilisateursBLL\obj\Debug\UtilisateursBLL.csproj.CoreCompileInputs.cache
