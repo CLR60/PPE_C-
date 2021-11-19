@@ -46,14 +46,53 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="AuthentificationForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="AuthentificationForm.Designer.cs">
+      <DependentUpon>AuthentificationForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EleveForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EleveForm.Designer.cs">
+      <DependentUpon>EleveForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AjouterEleveForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AjouterEleveForm.Designer.cs">
+      <DependentUpon>AjouterEleveForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModifierEleveForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModifierEleveForm.Designer.cs">
+      <DependentUpon>ModifierEleveForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PageAcceuilForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PageAcceuilForm.Designer.cs">
+      <DependentUpon>PageAcceuilForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AjouterEleveForm.resx">
+      <DependentUpon>AjouterEleveForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AuthentificationForm.resx">
+      <DependentUpon>AuthentificationForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EleveForm.resx">
+      <DependentUpon>EleveForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModifierEleveForm.resx">
+      <DependentUpon>ModifierEleveForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PageAcceuilForm.resx">
+      <DependentUpon>PageAcceuilForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
