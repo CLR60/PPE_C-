@@ -198,7 +198,7 @@
             this.Controls.Add(this.NaissanceEleveText);
             this.Controls.Add(this.ClasseEleveText);
             this.Name = "AjouterEleveForm";
-            this.Text = "\"";
+            this.Text = "Ajouter un eleve";
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -64,6 +64,12 @@
     <Compile Include="AjouterEleveForm.Designer.cs">
       <DependentUpon>AjouterEleveForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="DetailEleveForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DetailEleveForm.Designer.cs">
+      <DependentUpon>DetailEleveForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="ModifierEleveForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -83,6 +89,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="AuthentificationForm.resx">
       <DependentUpon>AuthentificationForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DetailEleveForm.resx">
+      <DependentUpon>DetailEleveForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="EleveForm.resx">
       <DependentUpon>EleveForm.cs</DependentUpon>
