@@ -42,6 +42,7 @@
             this.SanteDetailText = new System.Windows.Forms.TextBox();
             this.TelPDetailText = new System.Windows.Forms.TextBox();
             this.TelEDetailText = new System.Windows.Forms.TextBox();
+            this.RetourBtn = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -156,11 +157,21 @@
             this.TelEDetailText.Size = new System.Drawing.Size(100, 22);
             this.TelEDetailText.TabIndex = 13;
             // 
+            // RetourBtn
+            // 
+            this.RetourBtn.Location = new System.Drawing.Point(690, 376);
+            this.RetourBtn.Name = "RetourBtn";
+            this.RetourBtn.Size = new System.Drawing.Size(98, 62);
+            this.RetourBtn.TabIndex = 14;
+            this.RetourBtn.Text = "Retour";
+            this.RetourBtn.UseVisualStyleBackColor = true;
+            // 
             // DetailEleveForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.RetourBtn);
             this.Controls.Add(this.TelEDetailText);
             this.Controls.Add(this.TelPDetailText);
             this.Controls.Add(this.SanteDetailText);
@@ -198,5 +209,6 @@
         private System.Windows.Forms.TextBox SanteDetailText;
         private System.Windows.Forms.TextBox TelPDetailText;
         private System.Windows.Forms.TextBox TelEDetailText;
+        private System.Windows.Forms.Button RetourBtn;
     }
 }

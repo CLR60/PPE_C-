@@ -70,6 +70,24 @@
     <Compile Include="DetailEleveForm.Designer.cs">
       <DependentUpon>DetailEleveForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="AjouterMedicamentForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AjouterMedicamentForm.Designer.cs">
+      <DependentUpon>AjouterMedicamentForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VisiteForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VisiteForm.Designer.cs">
+      <DependentUpon>VisiteForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="ModifierEleveForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -87,6 +105,9 @@
     <EmbeddedResource Include="AjouterEleveForm.resx">
       <DependentUpon>AjouterEleveForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="AjouterMedicamentForm.resx">
+      <DependentUpon>AjouterMedicamentForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="AuthentificationForm.resx">
       <DependentUpon>AuthentificationForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -95,6 +116,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="EleveForm.resx">
       <DependentUpon>EleveForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ModifierEleveForm.resx">
       <DependentUpon>ModifierEleveForm.cs</DependentUpon>
@@ -111,6 +135,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="VisiteForm.resx">
+      <DependentUpon>VisiteForm.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
