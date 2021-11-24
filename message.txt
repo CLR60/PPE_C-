@@ -1,0 +1,219 @@
+Script SQL : 
+
+
+--Table dbo.CLASSE
+
+USE [Gestion_Infirmerie]
+GO
+
+--Create table and its columns
+CREATE TABLE [dbo].[CLASSE] (
+    [id_classe] [int] NOT NULL,
+    [libelle_classe] [varchar](255) NOT NULL);
+GO
+
+INSERT INTO [dbo].[CLASSE] ([id_classe], [libelle_classe])
+    VALUES (1, N'T1')
+
+GO
+INSERT INTO [dbo].[CLASSE] ([id_classe], [libelle_classe])
+    VALUES (2, N'T2')
+
+GO
+INSERT INTO [dbo].[CLASSE] ([id_classe], [libelle_classe])
+    VALUES (3, N'P1')
+
+GO
+INSERT INTO [dbo].[CLASSE] ([id_classe], [libelle_classe])
+    VALUES (4, N'S1')
+
+GO
+
+--Table dbo.DONNER
+
+USE [Gestion_Infirmerie]
+GO
+
+--Create table and its columns
+CREATE TABLE [dbo].[DONNER] (
+    [id_medic_donner] [int] NOT NULL,
+    [id_visite_donner] [int] NOT NULL,
+    [qte_medic_donner] [int] NOT NULL);
+GO
+
+INSERT INTO [dbo].[DONNER] ([id_medic_donner], [id_visite_donner], [qte_medic_donner])
+    VALUES (3, 2, 1)
+
+GO
+INSERT INTO [dbo].[DONNER] ([id_medic_donner], [id_visite_donner], [qte_medic_donner])
+    VALUES (4, 4, 1)
+
+GO
+
+--Table dbo.ELEVES
+
+USE [Gestion_Infirmerie]
+GO
+
+--Create table and its columns
+CREATE TABLE [dbo].[ELEVES] (
+    [id_eleve] [int] NOT NULL,
+    [nom_eleve] [varchar](255) NOT NULL,
+    [prenom_eleve] [varchar](255) NOT NULL,
+    [date_naissance_eleve] [date] NOT NULL,
+    [portable_eleve] [int] NOT NULL,
+    [id_classe_eleve] [int] NOT NULL,
+    [tel_parent_eleve] [int] NOT NULL,
+    [tiers_temps_eleve] [bit] NOT NULL,
+    [commentaires_sante_eleve] [varchar](255) NULL);
+GO
+
+INSERT INTO [dbo].[ELEVES] ([id_eleve], [nom_eleve], [prenom_eleve], [date_naissance_eleve], [portable_eleve], [id_classe_eleve], [tel_parent_eleve], [tiers_temps_eleve], [commentaires_sante_eleve])
+    VALUES (1, N'Mailloux', N'Robert', CAST(0xf12a0b AS date), 655705115, 2, 680866775, CAST ('False' AS bit), NULL)
+
+GO
+INSERT INTO [dbo].[ELEVES] ([id_eleve], [nom_eleve], [prenom_eleve], [date_naissance_eleve], [portable_eleve], [id_classe_eleve], [tel_parent_eleve], [tiers_temps_eleve], [commentaires_sante_eleve])
+    VALUES (2, N'Boucher', N'Jules', CAST(0x402a0b AS date), 628435632, 2, 671049337, CAST ('False' AS bit), N'Diabetique')
+
+GO
+INSERT INTO [dbo].[ELEVES] ([id_eleve], [nom_eleve], [prenom_eleve], [date_naissance_eleve], [portable_eleve], [id_classe_eleve], [tel_parent_eleve], [tiers_temps_eleve], [commentaires_sante_eleve])
+    VALUES (3, N'Lejeune', N'Gilles', CAST(0xc12d0b AS date), 650747514, 4, 695163383, CAST ('True' AS bit), N'Dyslexique')
+
+GO
+INSERT INTO [dbo].[ELEVES] ([id_eleve], [nom_eleve], [prenom_eleve], [date_naissance_eleve], [portable_eleve], [id_classe_eleve], [tel_parent_eleve], [tiers_temps_eleve], [commentaires_sante_eleve])
+    VALUES (4, N'Martineau', N'Lucy', CAST(0x8f2a0b AS date), 621567421, 1, 614010915, CAST ('False' AS bit), NULL)
+
+GO
+INSERT INTO [dbo].[ELEVES] ([id_eleve], [nom_eleve], [prenom_eleve], [date_naissance_eleve], [portable_eleve], [id_classe_eleve], [tel_parent_eleve], [tiers_temps_eleve], [commentaires_sante_eleve])
+    VALUES (5, N'Gilbert', N'Delphine', CAST(0x642b0b AS date), 629619181, 3, 638543837, CAST ('False' AS bit), N'Asthmatique')
+
+GO
+
+--Table dbo.MEDICAMENT
+
+USE [Gestion_Infirmerie]
+GO
+
+--Create table and its columns
+CREATE TABLE [dbo].[MEDICAMENT] (
+    [id_medicament] [int] NOT NULL,
+    [nom_medicament] [varchar](255) NOT NULL);
+GO
+
+INSERT INTO [dbo].[MEDICAMENT] ([id_medicament], [nom_medicament])
+    VALUES (1, N'Doliprane')
+
+GO
+INSERT INTO [dbo].[MEDICAMENT] ([id_medicament], [nom_medicament])
+    VALUES (2, N'Paracetamol')
+
+GO
+INSERT INTO [dbo].[MEDICAMENT] ([id_medicament], [nom_medicament])
+    VALUES (3, N'Aspirine')
+
+GO
+INSERT INTO [dbo].[MEDICAMENT] ([id_medicament], [nom_medicament])
+    VALUES (4, N'Spafon')
+
+GO
+INSERT INTO [dbo].[MEDICAMENT] ([id_medicament], [nom_medicament])
+    VALUES (5, N'Efferalgan')
+
+GO
+
+--Table dbo.UTILISATEUR
+
+USE [Gestion_Infirmerie]
+GO
+
+--Create table and its columns
+CREATE TABLE [dbo].[UTILISATEUR] (
+    [id_utilisateur] [int] NOT NULL,
+    [login_utilisateur] [varchar](255) NOT NULL,
+    [mot_de_passe_utilisateur] [varchar](255) NOT NULL);
+GO
+
+INSERT INTO [dbo].[UTILISATEUR] ([id_utilisateur], [login_utilisateur], [mot_de_passe_utilisateur])
+    VALUES (1, N'utilisateur', N'123')
+
+GO
+
+--Table dbo.VISITE
+
+USE [Gestion_Infirmerie]
+GO
+
+--Create table and its columns
+CREATE TABLE [dbo].[VISITE] (
+    [id_visite] [int] NOT NULL,
+    [id_eleve_visite] [int] NOT NULL,
+    [lieu_visite] [varchar](255) NOT NULL,
+    [date_visite] [date] NOT NULL,
+    [heure_debut_visite] [int] NOT NULL,
+    [heure_fin_visite] [int] NOT NULL,
+    [motif_visite] [varchar](255) NOT NULL,
+    [commentaire_visite] [varchar](255) NULL,
+    [suite_visite] [varchar](255) NOT NULL,
+    [parent_prevenu_visite] [bit] NOT NULL);
+GO
+
+INSERT INTO [dbo].[VISITE] ([id_visite], [id_eleve_visite], [lieu_visite], [date_visite], [heure_debut_visite], [heure_fin_visite], [motif_visite], [commentaire_visite], [suite_visite], [parent_prevenu_visite])
+    VALUES (1, 5, N'Infirmerie', CAST(0xf5420b AS date), 14, 15, N'Asthme', NULL, N'classe', CAST ('False' AS bit))
+
+GO
+INSERT INTO [dbo].[VISITE] ([id_visite], [id_eleve_visite], [lieu_visite], [date_visite], [heure_debut_visite], [heure_fin_visite], [motif_visite], [commentaire_visite], [suite_visite], [parent_prevenu_visite])
+    VALUES (2, 3, N'Infirmerie', CAST(0x26430b AS date), 9, 10, N'Migraine', NULL, N'classe', CAST ('False' AS bit))
+
+GO
+INSERT INTO [dbo].[VISITE] ([id_visite], [id_eleve_visite], [lieu_visite], [date_visite], [heure_debut_visite], [heure_fin_visite], [motif_visite], [commentaire_visite], [suite_visite], [parent_prevenu_visite])
+    VALUES (3, 2, N'Cours Exterieure', CAST(0x28430b AS date), 12, 13, N'Fracture du bras', N'Pompier appele', N'hopital', CAST ('True' AS bit))
+
+GO
+INSERT INTO [dbo].[VISITE] ([id_visite], [id_eleve_visite], [lieu_visite], [date_visite], [heure_debut_visite], [heure_fin_visite], [motif_visite], [commentaire_visite], [suite_visite], [parent_prevenu_visite])
+    VALUES (4, 5, N'Infirmerie', CAST(0x40430b AS date), 15, 16, N'Maux de ventre', NULL, N'classe', CAST ('False' AS bit))
+
+GO
+INSERT INTO [dbo].[VISITE] ([id_visite], [id_eleve_visite], [lieu_visite], [date_visite], [heure_debut_visite], [heure_fin_visite], [motif_visite], [commentaire_visite], [suite_visite], [parent_prevenu_visite])
+    VALUES (5, 1, N'Infirmerie', CAST(0x4d430b AS date), 16, 17, N'Rhume', N'Retour en classe impossible', N'maison', CAST ('True' AS bit))
+
+GO
+
+--Indexes of table dbo.CLASSE
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+ALTER TABLE [dbo].[CLASSE] ADD CONSTRAINT [PK_CLASSE] PRIMARY KEY CLUSTERED ([id_classe])
+GO
+
+--Indexes of table dbo.ELEVES
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+ALTER TABLE [dbo].[ELEVES] ADD CONSTRAINT [PK_ELEVES] PRIMARY KEY CLUSTERED ([id_eleve])
+GO
+
+--Indexes of table dbo.MEDICAMENT
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+ALTER TABLE [dbo].[MEDICAMENT] ADD CONSTRAINT [PK_MEDICAMENT] PRIMARY KEY CLUSTERED ([id_medicament])
+GO
+
+--Indexes of table dbo.UTILISATEUR
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+ALTER TABLE [dbo].[UTILISATEUR] ADD CONSTRAINT [PK_UTILISATEUR] PRIMARY KEY CLUSTERED ([id_utilisateur])
+GO
+
+--Indexes of table dbo.VISITE
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+ALTER TABLE [dbo].[VISITE] ADD CONSTRAINT [PK_VISITE] PRIMARY KEY CLUSTERED ([id_visite])
+GO
