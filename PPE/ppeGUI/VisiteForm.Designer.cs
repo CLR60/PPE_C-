@@ -32,7 +32,6 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.ListeVisite = new System.Windows.Forms.ListBox();
             this.RetourBtn = new System.Windows.Forms.Button();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
@@ -41,6 +40,8 @@
             this.ModifierVisiteBtn = new System.Windows.Forms.Button();
             this.ConsulterVisiteBtn = new System.Windows.Forms.Button();
             this.SupprimerVisiteBtn = new System.Windows.Forms.Button();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -77,15 +78,6 @@
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(0, 17);
             this.label4.TabIndex = 3;
-            // 
-            // ListeVisite
-            // 
-            this.ListeVisite.FormattingEnabled = true;
-            this.ListeVisite.ItemHeight = 16;
-            this.ListeVisite.Location = new System.Drawing.Point(12, 12);
-            this.ListeVisite.Name = "ListeVisite";
-            this.ListeVisite.Size = new System.Drawing.Size(293, 420);
-            this.ListeVisite.TabIndex = 4;
             // 
             // RetourBtn
             // 
@@ -154,11 +146,22 @@
             this.SupprimerVisiteBtn.Text = "Supprimer";
             this.SupprimerVisiteBtn.UseVisualStyleBackColor = true;
             // 
+            // dataGridView1
+            // 
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(12, 12);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.RowHeadersWidth = 51;
+            this.dataGridView1.RowTemplate.Height = 24;
+            this.dataGridView1.Size = new System.Drawing.Size(302, 426);
+            this.dataGridView1.TabIndex = 13;
+            // 
             // VisiteForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.SupprimerVisiteBtn);
             this.Controls.Add(this.ConsulterVisiteBtn);
             this.Controls.Add(this.ModifierVisiteBtn);
@@ -167,13 +170,13 @@
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.RetourBtn);
-            this.Controls.Add(this.ListeVisite);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "VisiteForm";
             this.Text = "Visite";
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -185,7 +188,6 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.ListBox ListeVisite;
         private System.Windows.Forms.Button RetourBtn;
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.TextBox textBox1;
@@ -194,5 +196,6 @@
         private System.Windows.Forms.Button ModifierVisiteBtn;
         private System.Windows.Forms.Button ConsulterVisiteBtn;
         private System.Windows.Forms.Button SupprimerVisiteBtn;
+        private System.Windows.Forms.DataGridView dataGridView1;
     }
 }

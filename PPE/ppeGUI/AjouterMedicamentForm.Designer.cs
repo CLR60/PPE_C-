@@ -32,6 +32,8 @@
             this.RetourBtn = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.NomMedicText = new System.Windows.Forms.TextBox();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // SubmitBtn
@@ -68,17 +70,29 @@
             this.NomMedicText.Size = new System.Drawing.Size(100, 22);
             this.NomMedicText.TabIndex = 3;
             // 
+            // dataGridView1
+            // 
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(37, 13);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.RowHeadersWidth = 51;
+            this.dataGridView1.RowTemplate.Height = 24;
+            this.dataGridView1.Size = new System.Drawing.Size(735, 150);
+            this.dataGridView1.TabIndex = 4;
+            // 
             // AjouterMedicamentForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.NomMedicText);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.RetourBtn);
             this.Controls.Add(this.SubmitBtn);
             this.Name = "AjouterMedicamentForm";
             this.Text = "Ajouter un médicament";
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -90,5 +104,6 @@
         private System.Windows.Forms.Button RetourBtn;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox NomMedicText;
+        private System.Windows.Forms.DataGridView dataGridView1;
     }
 }

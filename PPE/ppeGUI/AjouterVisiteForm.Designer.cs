@@ -1,6 +1,6 @@
 ﻿namespace ppeGUI
 {
-    partial class Form1
+    partial class AjouterVisiteForm
     {
         /// <summary>
         /// Required designer variable.
@@ -140,7 +140,7 @@
             this.label11.TabIndex = 10;
             this.label11.Text = "label11";
             // 
-            // Form1
+            // AjouterVisiteForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -156,8 +156,8 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Name = "AjouterVisiteForm";
+            this.Text = "Ajouter une visite";
             this.ResumeLayout(false);
             this.PerformLayout();
 

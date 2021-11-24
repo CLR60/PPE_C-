@@ -35,7 +35,8 @@
             this.ModifBtn = new System.Windows.Forms.Button();
             this.NomEleveText = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.listEleve = new System.Windows.Forms.ListBox();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // RetourBtn
@@ -85,7 +86,7 @@
             // 
             // NomEleveText
             // 
-            this.NomEleveText.Location = new System.Drawing.Point(377, 49);
+            this.NomEleveText.Location = new System.Drawing.Point(457, 49);
             this.NomEleveText.Name = "NomEleveText";
             this.NomEleveText.Size = new System.Drawing.Size(250, 22);
             this.NomEleveText.TabIndex = 5;
@@ -93,27 +94,28 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(255, 49);
+            this.label1.Location = new System.Drawing.Point(357, 49);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(84, 17);
             this.label1.TabIndex = 6;
             this.label1.Text = "Nom Eleve :";
             // 
-            // listEleve
+            // dataGridView1
             // 
-            this.listEleve.FormattingEnabled = true;
-            this.listEleve.ItemHeight = 16;
-            this.listEleve.Location = new System.Drawing.Point(12, 29);
-            this.listEleve.Name = "listEleve";
-            this.listEleve.Size = new System.Drawing.Size(228, 404);
-            this.listEleve.TabIndex = 7;
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(12, 12);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.RowHeadersWidth = 51;
+            this.dataGridView1.RowTemplate.Height = 24;
+            this.dataGridView1.Size = new System.Drawing.Size(339, 426);
+            this.dataGridView1.TabIndex = 7;
             // 
             // EleveForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.listEleve);
+            this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.NomEleveText);
             this.Controls.Add(this.ModifBtn);
@@ -123,6 +125,7 @@
             this.Controls.Add(this.RetourBtn);
             this.Name = "EleveForm";
             this.Text = "Eleves";
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -137,6 +140,6 @@
         private System.Windows.Forms.Button ModifBtn;
         private System.Windows.Forms.TextBox NomEleveText;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.ListBox listEleve;
+        private System.Windows.Forms.DataGridView dataGridView1;
     }
 }

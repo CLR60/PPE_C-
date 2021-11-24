@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace ppeGUI
 {
-    public partial class Form1 : Form
+    public partial class AjouterVisiteForm : Form
     {
-        public Form1()
+        public AjouterVisiteForm()
         {
             InitializeComponent();
         }
