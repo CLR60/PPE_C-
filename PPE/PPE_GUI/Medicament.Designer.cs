@@ -141,7 +141,7 @@ namespace PPE_C_Sharp_GUI
             this.Controls.Add(this.txt_mdf_med);
             this.Controls.Add(this.dataGridView1);
             this.Name = "Medicament";
-            this.Text = "Médicaments";
+            this.Text = "Médicament";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

@@ -159,7 +159,7 @@ namespace PPE_C_Sharp_GUI
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(234, 36);
             this.label4.TabIndex = 83;
-            this.label4.Text = "Telephone élève";
+            this.label4.Text = "Téléphone élève";
             // 
             // label2
             // 
@@ -169,7 +169,7 @@ namespace PPE_C_Sharp_GUI
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(248, 36);
             this.label2.TabIndex = 82;
-            this.label2.Text = "Telephone parent";
+            this.label2.Text = "Téléphone parent";
             // 
             // label8
             // 
@@ -248,7 +248,7 @@ namespace PPE_C_Sharp_GUI
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Margin = new System.Windows.Forms.Padding(6, 7, 6, 7);
             this.Name = "Ajt_eleve";
-            this.Text = "AJout d\'élève";
+            this.Text = "Ajout d\'élève";
             this.ResumeLayout(false);
             this.PerformLayout();
 

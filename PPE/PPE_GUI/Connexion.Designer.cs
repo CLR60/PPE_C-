@@ -58,11 +58,11 @@ namespace PPE_C_Sharp_GUI
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(438, 276);
+            this.label1.Location = new System.Drawing.Point(406, 277);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(193, 36);
+            this.label1.Size = new System.Drawing.Size(209, 36);
             this.label1.TabIndex = 1;
-            this.label1.Text = "Mot de passe";
+            this.label1.Text = "Mot de passe :";
             // 
             // txt_mdp
             // 
@@ -83,11 +83,12 @@ namespace PPE_C_Sharp_GUI
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(458, 165);
+            this.label2.Location = new System.Drawing.Point(406, 164);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(144, 36);
+            this.label2.Size = new System.Drawing.Size(160, 36);
             this.label2.TabIndex = 1;
-            this.label2.Text = "Identifiant";
+            this.label2.Text = "Identifiant :";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // txt_id
             // 

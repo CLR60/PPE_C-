@@ -30,7 +30,7 @@ namespace PPE_C_Sharp_GUI
             {
                 //MessageBox.Show("Fonctionne");
                 this.Close();
-                Thread th = new Thread(x => Application.Run(new Acceuil()));
+                Thread th = new Thread(x => Application.Run(new Accueil()));
                 th.SetApartmentState(ApartmentState.STA);
                 th.Start();
             }
@@ -65,6 +65,11 @@ namespace PPE_C_Sharp_GUI
                 //MessageBox.Show("enteer");
                 btn_cnx_Click(this, EventArgs.Empty);
             }
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

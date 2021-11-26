@@ -26,7 +26,7 @@ namespace PPE_C_Sharp_GUI
         private void btn_link_acl_Click(object sender, EventArgs e)
         {
             this.Close();
-            Thread th = new Thread(x => Application.Run(new Acceuil()));
+            Thread th = new Thread(x => Application.Run(new Accueil()));
             th.SetApartmentState(ApartmentState.STA);
             th.Start();
         }

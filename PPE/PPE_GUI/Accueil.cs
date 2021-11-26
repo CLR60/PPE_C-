@@ -11,9 +11,9 @@ using System.Threading;
 
 namespace PPE_C_Sharp_GUI
 {
-    public partial class Acceuil : Form
+    public partial class Accueil : Form
     {
-        public Acceuil()
+        public Accueil()
         {
             InitializeComponent();
         }

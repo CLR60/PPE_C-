@@ -1,7 +1,7 @@
 ﻿
 namespace PPE_C_Sharp_GUI
 {
-    partial class Acceuil
+    partial class Accueil
     {
         /// <summary>
         /// Required designer variable.
@@ -89,7 +89,7 @@ namespace PPE_C_Sharp_GUI
             this.btn_link_med.UseVisualStyleBackColor = true;
             this.btn_link_med.Click += new System.EventHandler(this.btn_link_med_Click);
             // 
-            // Acceuil
+            // Aceuil
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.ClientSize = new System.Drawing.Size(1006, 721);
@@ -99,8 +99,8 @@ namespace PPE_C_Sharp_GUI
             this.Controls.Add(this.txt_srch);
             this.Controls.Add(this.dataGridView1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
-            this.Name = "Acceuil";
-            this.Text = "Acceuil";
+            this.Name = "Aceuil";
+            this.Text = "Accueil";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

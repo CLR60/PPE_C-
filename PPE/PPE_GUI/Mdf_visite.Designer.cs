@@ -307,7 +307,7 @@ namespace PPE_C_Sharp_GUI
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Margin = new System.Windows.Forms.Padding(6, 7, 6, 7);
             this.Name = "Mdf_visite";
-            this.Text = "Mdf_visite";
+            this.Text = "Modifier une visite";
             this.ResumeLayout(false);
             this.PerformLayout();
 

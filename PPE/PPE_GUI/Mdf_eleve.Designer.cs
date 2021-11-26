@@ -132,7 +132,7 @@ namespace PPE_C_Sharp_GUI
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(248, 36);
             this.label2.TabIndex = 59;
-            this.label2.Text = "Telephone parent";
+            this.label2.Text = "Téléphone parent";
             // 
             // label4
             // 
@@ -142,7 +142,7 @@ namespace PPE_C_Sharp_GUI
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(234, 36);
             this.label4.TabIndex = 61;
-            this.label4.Text = "Telephone élève";
+            this.label4.Text = "Téléphone élève";
             // 
             // btn_link_elv
             // 
@@ -285,7 +285,7 @@ namespace PPE_C_Sharp_GUI
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F);
             this.Margin = new System.Windows.Forms.Padding(6, 7, 6, 7);
             this.Name = "Mdf_eleve";
-            this.Text = "Mdf_eleve";
+            this.Text = "Modifier un eleve";
             this.ResumeLayout(false);
             this.PerformLayout();
 
