@@ -31,7 +31,7 @@ namespace PPE_C_Sharp_DAL
             //on connecte la requete a la base
             cmd.Connection = sqlConnection;
             //ecriture de la requete
-            cmd.CommandText = "SELECT * FROM eleves INNER JOIN classe ON eleves.id_classe_eleve = classe.id_classe";
+            cmd.CommandText = "SELECT * FROM eleve INNER JOIN classe ON eleve.id_classe_eleve = classe.id_classe";
             //recuperation des données
             SqlDataReader sqlDataReader = cmd.ExecuteReader();
 
@@ -129,7 +129,7 @@ namespace PPE_C_Sharp_DAL
             SqlConnection sqlConnection = ConnexionBD.GetConnexionBD().GetSqlConnexion();
             SqlCommand cmd = new SqlCommand();
             cmd.Connection = sqlConnection;
-            cmd.CommandText = "INSERT INTO eleves(nom_eleve,prenom_eleve,portable_eleve,tel_parent_eleve,commentaires_sante_eleve,tiers_temps_eleve,date_naissance_eleve,id_classe_eleve) VALUES (@nom,@prn,@tel_elv,@tel_elv_prt,@com,@tier_tps,@date,@classe)";
+            cmd.CommandText = "INSERT INTO eleve(nom_eleve,prenom_eleve,telephone_eleve,telephone_parent_eleve,commentaire_sante_eleve,tier_temps_eleve,date_naissance_eleve,id_classe_eleve) VALUES (@nom,@prn,@tel_elv,@tel_elv_prt,@com,@tier_tps,@date,@classe)";
             //cmd.CommandText = "UPDATE eleve SET nom_eleve = @nom WHERE id_eleve = @id";
             cmd.Parameters.AddWithValue("@nom", eleve.Nom);
             cmd.Parameters.AddWithValue("@prn", eleve.Prenom);

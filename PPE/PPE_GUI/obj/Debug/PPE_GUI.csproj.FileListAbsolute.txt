@@ -8,7 +8,6 @@ C:\xampp\htdocs\projet\c#\PPE_C-\PPE\PPE_GUI\bin\Debug\PPE_BLL.pdb
 C:\xampp\htdocs\projet\c#\PPE_C-\PPE\PPE_GUI\bin\Debug\PPE_BO.pdb
 C:\xampp\htdocs\projet\c#\PPE_C-\PPE\PPE_GUI\bin\Debug\PPE_DAL.pdb
 C:\xampp\htdocs\projet\c#\PPE_C-\PPE\PPE_GUI\obj\Debug\PPE_GUI.csproj.AssemblyReference.cache
-C:\xampp\htdocs\projet\c#\PPE_C-\PPE\PPE_GUI\obj\Debug\PPE_C_Sharp_GUI.Acceuil.resources
 C:\xampp\htdocs\projet\c#\PPE_C-\PPE\PPE_GUI\obj\Debug\PPE_C_Sharp_GUI.Ajt_eleve.resources
 C:\xampp\htdocs\projet\c#\PPE_C-\PPE\PPE_GUI\obj\Debug\PPE_C_Sharp_GUI.Connexion.resources
 C:\xampp\htdocs\projet\c#\PPE_C-\PPE\PPE_GUI\obj\Debug\PPE_C_Sharp_GUI.Ajt_visite.resources
@@ -46,3 +45,4 @@ C:\Users\admin\Desktop\PPE_C-\PPE\PPE_GUI\obj\Debug\PPE_GUI.csproj.CoreCompileIn
 C:\Users\admin\Desktop\PPE_C-\PPE\PPE_GUI\obj\Debug\PPE_GUI.csproj.CopyComplete
 C:\Users\admin\Desktop\PPE_C-\PPE\PPE_GUI\obj\Debug\PPE_GUI.exe
 C:\Users\admin\Desktop\PPE_C-\PPE\PPE_GUI\obj\Debug\PPE_GUI.pdb
+C:\xampp\htdocs\projet\c#\PPE_C-\PPE\PPE_GUI\obj\Debug\PPE_C_Sharp_GUI.Accueil.resources
