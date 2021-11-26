@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3f663540-21bd-44bc-9260-1bfb808ee779" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/PPE-C-Sharp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/PPE C-Sharp/v16/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/PPE C-Sharp/v16/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PPE_C-Sharp_BLL/PPE_C-Sharp_BLL.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/PPE_C-Sharp_BLL/PPE_C-Sharp_BLL.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PPE_C-Sharp_BLL/bin/Debug/PPE_C-Sharp_BLL.dll" beforeDir="false" afterPath="$PROJECT_DIR$/PPE_C-Sharp_BLL/bin/Debug/PPE_C-Sharp_BLL.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PPE_C-Sharp_BLL/bin/Debug/PPE_C-Sharp_BLL.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/PPE_C-Sharp_BLL/bin/Debug/PPE_C-Sharp_BLL.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PPE_C-Sharp_BLL/bin/Debug/PPE_C-Sharp_DAL.dll" beforeDir="false" afterPath="$PROJECT_DIR$/PPE_C-Sharp_BLL/bin/Debug/PPE_C-Sharp_DAL.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PPE_C-Sharp_BLL/bin/Debug/PPE_C-Sharp_DAL.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/PPE_C-Sharp_BLL/bin/Debug/PPE_C-Sharp_DAL.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PPE_C-Sharp_BLL/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache" beforeDir="false" afterPath="$PROJECT_DIR$/PPE_C-Sharp_BLL/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PPE_C-Sharp_BLL/obj/Debug/PPE_C-Sharp_BLL.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/PPE_C-Sharp_BLL/obj/Debug/PPE_C-Sharp_BLL.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PPE_C-Sharp_BLL/obj/Debug/PPE_C-Sharp_BLL.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/PPE_C-Sharp_BLL/obj/Debug/PPE_C-Sharp_BLL.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PPE_C-Sharp_BLL/obj/Debug/PPE_C-Sharp_BLL.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/PPE_C-Sharp_BLL/obj/Debug/PPE_C-Sharp_BLL.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PPE_C-Sharp_BLL/obj/Debug/PPE_C-Sharp_BLL.dll" beforeDir="false" afterPath="$PROJECT_DIR$/PPE_C-Sharp_BLL/obj/Debug/PPE_C-Sharp_BLL.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PPE_C-Sharp_BLL/obj/Debug/PPE_C-Sharp_BLL.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/PPE_C-Sharp_BLL/obj/Debug/PPE_C-Sharp_BLL.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PPE_C-Sharp_BO/Eleve.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PPE_C-Sharp_BO/Eleve.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PPE_C-Sharp_BO/PPE_C-Sharp_BO.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/PPE_C-Sharp_BO/PPE_C-Sharp_BO.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PPE_C-Sharp_BO/bin/Debug/PPE_C-Sharp_BO.dll" beforeDir="false" afterPath="$PROJECT_DIR$/PPE_C-Sharp_BO/bin/Debug/PPE_C-Sharp_BO.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PPE_C-Sharp_BO/bin/Debug/PPE_C-Sharp_BO.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/PPE_C-Sharp_BO/bin/Debug/PPE_C-Sharp_BO.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PPE_C-Sharp_BO/obj/Debug/PPE_C-Sharp_BO.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/PPE_C-Sharp_BO/obj/Debug/PPE_C-Sharp_BO.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PPE_C-Sharp_BO/obj/Debug/PPE_C-Sharp_BO.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/PPE_C-Sharp_BO/obj/Debug/PPE_C-Sharp_BO.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PPE_C-Sharp_BO/obj/Debug/PPE_C-Sharp_BO.dll" beforeDir="false" afterPath="$PROJECT_DIR$/PPE_C-Sharp_BO/obj/Debug/PPE_C-Sharp_BO.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PPE_C-Sharp_BO/obj/Debug/PPE_C-Sharp_BO.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/PPE_C-Sharp_BO/obj/Debug/PPE_C-Sharp_BO.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PPE_C-Sharp_DAL/PPE_C-Sharp_DAL.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/PPE_C-Sharp_DAL/PPE_C-Sharp_DAL.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PPE_C-Sharp_DAL/bin/Debug/PPE_C-Sharp_BO.dll" beforeDir="false" afterPath="$PROJECT_DIR$/PPE_C-Sharp_DAL/bin/Debug/PPE_C-Sharp_BO.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PPE_C-Sharp_DAL/bin/Debug/PPE_C-Sharp_BO.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/PPE_C-Sharp_DAL/bin/Debug/PPE_C-Sharp_BO.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PPE_C-Sharp_DAL/bin/Debug/PPE_C-Sharp_DAL.dll" beforeDir="false" afterPath="$PROJECT_DIR$/PPE_C-Sharp_DAL/bin/Debug/PPE_C-Sharp_DAL.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PPE_C-Sharp_DAL/bin/Debug/PPE_C-Sharp_DAL.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/PPE_C-Sharp_DAL/bin/Debug/PPE_C-Sharp_DAL.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PPE_C-Sharp_DAL/obj/Debug/PPE_C-Sharp_DAL.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/PPE_C-Sharp_DAL/obj/Debug/PPE_C-Sharp_DAL.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PPE_C-Sharp_DAL/obj/Debug/PPE_C-Sharp_DAL.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/PPE_C-Sharp_DAL/obj/Debug/PPE_C-Sharp_DAL.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PPE_C-Sharp_DAL/obj/Debug/PPE_C-Sharp_DAL.dll" beforeDir="false" afterPath="$PROJECT_DIR$/PPE_C-Sharp_DAL/obj/Debug/PPE_C-Sharp_DAL.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PPE_C-Sharp_DAL/obj/Debug/PPE_C-Sharp_DAL.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/PPE_C-Sharp_DAL/obj/Debug/PPE_C-Sharp_DAL.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PPE_C-Sharp_GUI/Acceuil.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PPE_C-Sharp_GUI/Acceuil.Designer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PPE_C-Sharp_GUI/Acceuil.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PPE_C-Sharp_GUI/Acceuil.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PPE_C-Sharp_GUI/Ajt_Visite.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PPE_C-Sharp_GUI/Ajt_Visite.Designer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PPE_C-Sharp_GUI/Ajt_Visite.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PPE_C-Sharp_GUI/Ajt_Visite.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PPE_C-Sharp_GUI/Ajt_eleve.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PPE_C-Sharp_GUI/Ajt_eleve.Designer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PPE_C-Sharp_GUI/Ajt_eleve.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PPE_C-Sharp_GUI/Ajt_eleve.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PPE_C-Sharp_GUI/App.config" beforeDir="false" afterPath="$PROJECT_DIR$/PPE_C-Sharp_GUI/App.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PPE_C-Sharp_GUI/Connexion.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PPE_C-Sharp_GUI/Connexion.Designer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PPE_C-Sharp_GUI/Connexion.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PPE_C-Sharp_GUI/Connexion.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PPE_C-Sharp_GUI/Eleves.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PPE_C-Sharp_GUI/Eleves.Designer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PPE_C-Sharp_GUI/Eleves.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PPE_C-Sharp_GUI/Eleves.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PPE_C-Sharp_GUI/Mdf_eleve.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PPE_C-Sharp_GUI/Mdf_eleve.Designer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PPE_C-Sharp_GUI/Mdf_eleve.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PPE_C-Sharp_GUI/Mdf_eleve.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PPE_C-Sharp_GUI/Mdf_visite.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PPE_C-Sharp_GUI/Mdf_visite.Designer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PPE_C-Sharp_GUI/Mdf_visite.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PPE_C-Sharp_GUI/Mdf_visite.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PPE_C-Sharp_GUI/Medicament.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PPE_C-Sharp_GUI/Medicament.Designer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PPE_C-Sharp_GUI/Medicament.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PPE_C-Sharp_GUI/Medicament.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PPE_C-Sharp_GUI/PPE_C-Sharp_GUI.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/PPE_C-Sharp_GUI/PPE_C-Sharp_GUI.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PPE_C-Sharp_GUI/Properties/Settings.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PPE_C-Sharp_GUI/Properties/Settings.Designer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PPE_C-Sharp_GUI/Properties/Settings.settings" beforeDir="false" afterPath="$PROJECT_DIR$/PPE_C-Sharp_GUI/Properties/Settings.settings" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PPE_C-Sharp_GUI/bin/Debug/PPE_C-Sharp_BLL.dll" beforeDir="false" afterPath="$PROJECT_DIR$/PPE_C-Sharp_GUI/bin/Debug/PPE_C-Sharp_BLL.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PPE_C-Sharp_GUI/bin/Debug/PPE_C-Sharp_BLL.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/PPE_C-Sharp_GUI/bin/Debug/PPE_C-Sharp_BLL.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PPE_C-Sharp_GUI/bin/Debug/PPE_C-Sharp_BO.dll" beforeDir="false" afterPath="$PROJECT_DIR$/PPE_C-Sharp_GUI/bin/Debug/PPE_C-Sharp_BO.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PPE_C-Sharp_GUI/bin/Debug/PPE_C-Sharp_BO.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/PPE_C-Sharp_GUI/bin/Debug/PPE_C-Sharp_BO.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PPE_C-Sharp_GUI/bin/Debug/PPE_C-Sharp_GUI.exe" beforeDir="false" afterPath="$PROJECT_DIR$/PPE_C-Sharp_GUI/bin/Debug/PPE_C-Sharp_GUI.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PPE_C-Sharp_GUI/bin/Debug/PPE_C-Sharp_GUI.exe.config" beforeDir="false" afterPath="$PROJECT_DIR$/PPE_C-Sharp_GUI/bin/Debug/PPE_C-Sharp_GUI.exe.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PPE_C-Sharp_GUI/bin/Debug/PPE_C-Sharp_GUI.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/PPE_C-Sharp_GUI/bin/Debug/PPE_C-Sharp_GUI.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PPE_C-Sharp_GUI/obj/Debug/DesignTimeResolveAssemblyReferences.cache" beforeDir="false" afterPath="$PROJECT_DIR$/PPE_C-Sharp_GUI/obj/Debug/DesignTimeResolveAssemblyReferences.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PPE_C-Sharp_GUI/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache" beforeDir="false" afterPath="$PROJECT_DIR$/PPE_C-Sharp_GUI/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PPE_C-Sharp_GUI/obj/Debug/PPE_C-Sharp_GUI.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/PPE_C-Sharp_GUI/obj/Debug/PPE_C-Sharp_GUI.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PPE_C-Sharp_GUI/obj/Debug/PPE_C-Sharp_GUI.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/PPE_C-Sharp_GUI/obj/Debug/PPE_C-Sharp_GUI.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PPE_C-Sharp_GUI/obj/Debug/PPE_C-Sharp_GUI.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/PPE_C-Sharp_GUI/obj/Debug/PPE_C-Sharp_GUI.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PPE_C-Sharp_GUI/obj/Debug/PPE_C-Sharp_GUI.csproj.GenerateResource.cache" beforeDir="false" afterPath="$PROJECT_DIR$/PPE_C-Sharp_GUI/obj/Debug/PPE_C-Sharp_GUI.csproj.GenerateResource.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PPE_C-Sharp_GUI/obj/Debug/PPE_C-Sharp_GUI.exe" beforeDir="false" afterPath="$PROJECT_DIR$/PPE_C-Sharp_GUI/obj/Debug/PPE_C-Sharp_GUI.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PPE_C-Sharp_GUI/obj/Debug/PPE_C-Sharp_GUI.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/PPE_C-Sharp_GUI/obj/Debug/PPE_C-Sharp_GUI.pdb" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="21RlVFS1BSVqZbL31NVW0dVCDld" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3f663540-21bd-44bc-9260-1bfb808ee779" name="Changes" comment="" />
+      <created>1637911804859</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1637911804859</updated>
+      <workItem from="1637911809596" duration="8000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+</project>
