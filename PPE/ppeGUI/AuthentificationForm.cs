@@ -8,6 +8,10 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+using System.Configuration;
+using ppeBO; // Référence la couche BO
+using ppeBLL; // Référence la couche BLL
+
 namespace ppeGUI
 {
     public partial class AuthentificationForm : Form
@@ -15,11 +19,13 @@ namespace ppeGUI
         public AuthentificationForm()
         {
             InitializeComponent();
+            // Récupération de chaîne de connexion à la BD à l'ouverture du formulaire
+            GestionUtilisateurs.SetchaineConnexion(ConfigurationManager.ConnectionStrings["Utilisateur"]);
         }
 
-        private void label1_Click(object sender, EventArgs e)
+        private void test(object sender, EventArgs e)
         {
-
+            MessageBox.Show("Merci !", this.MdpText.Text);
         }
     }
 }

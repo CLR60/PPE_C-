@@ -34,6 +34,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -150,6 +151,16 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ppeBLL\ppeBLL.csproj">
+      <Project>{e1f8eac2-36a6-4d17-9ab8-fef063c2a25c}</Project>
+      <Name>ppeBLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ppeBO\ppeBO.csproj">
+      <Project>{a4a2b032-d946-42c8-afd8-e9a8f551bc67}</Project>
+      <Name>ppeBO</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

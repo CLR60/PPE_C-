@@ -42,8 +42,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ConnexionBD.cs" />
-    <Compile Include="Class2.cs" />
+    <Compile Include="UtilisateurDAO.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ppeBO\ppeBO.csproj">
+      <Project>{a4a2b032-d946-42c8-afd8-e9a8f551bc67}</Project>
+      <Name>ppeBO</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

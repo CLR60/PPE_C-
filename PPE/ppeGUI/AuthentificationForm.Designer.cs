@@ -37,56 +37,62 @@
             // 
             // ValiderAuth
             // 
-            this.ValiderAuth.Location = new System.Drawing.Point(335, 273);
+            this.ValiderAuth.Location = new System.Drawing.Point(251, 222);
+            this.ValiderAuth.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.ValiderAuth.Name = "ValiderAuth";
-            this.ValiderAuth.Size = new System.Drawing.Size(124, 50);
+            this.ValiderAuth.Size = new System.Drawing.Size(93, 41);
             this.ValiderAuth.TabIndex = 0;
             this.ValiderAuth.Text = "Connexion";
             this.ValiderAuth.UseVisualStyleBackColor = true;
+            this.ValiderAuth.Click += new System.EventHandler(this.test);
             // 
             // IdentifiantText
             // 
-            this.IdentifiantText.Location = new System.Drawing.Point(281, 112);
+            this.IdentifiantText.Location = new System.Drawing.Point(211, 91);
+            this.IdentifiantText.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.IdentifiantText.Name = "IdentifiantText";
-            this.IdentifiantText.Size = new System.Drawing.Size(185, 22);
+            this.IdentifiantText.Size = new System.Drawing.Size(140, 20);
             this.IdentifiantText.TabIndex = 1;
             // 
             // MdpText
             // 
-            this.MdpText.Location = new System.Drawing.Point(281, 168);
+            this.MdpText.Location = new System.Drawing.Point(211, 136);
+            this.MdpText.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.MdpText.Name = "MdpText";
-            this.MdpText.Size = new System.Drawing.Size(185, 22);
+            this.MdpText.Size = new System.Drawing.Size(140, 20);
             this.MdpText.TabIndex = 2;
             // 
             // identifiant
             // 
             this.identifiant.AutoSize = true;
-            this.identifiant.Location = new System.Drawing.Point(177, 112);
+            this.identifiant.Location = new System.Drawing.Point(133, 91);
+            this.identifiant.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.identifiant.Name = "identifiant";
-            this.identifiant.Size = new System.Drawing.Size(77, 17);
+            this.identifiant.Size = new System.Drawing.Size(59, 13);
             this.identifiant.TabIndex = 3;
             this.identifiant.Text = "Identifiant :";
-            this.identifiant.Click += new System.EventHandler(this.label1_Click);
             // 
             // MotDePasse
             // 
             this.MotDePasse.AutoSize = true;
-            this.MotDePasse.Location = new System.Drawing.Point(150, 168);
+            this.MotDePasse.Location = new System.Drawing.Point(112, 136);
+            this.MotDePasse.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.MotDePasse.Name = "MotDePasse";
-            this.MotDePasse.Size = new System.Drawing.Size(104, 17);
+            this.MotDePasse.Size = new System.Drawing.Size(80, 13);
             this.MotDePasse.TabIndex = 4;
             this.MotDePasse.Text = "Mot De Passe :";
             // 
             // AuthentificationForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(600, 366);
             this.Controls.Add(this.MotDePasse);
             this.Controls.Add(this.identifiant);
             this.Controls.Add(this.MdpText);
             this.Controls.Add(this.IdentifiantText);
             this.Controls.Add(this.ValiderAuth);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "AuthentificationForm";
             this.Text = "Authentification";
             this.ResumeLayout(false);

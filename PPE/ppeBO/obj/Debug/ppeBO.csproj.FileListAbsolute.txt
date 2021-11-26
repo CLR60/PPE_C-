@@ -1,0 +1,6 @@
+C:\xampp\htdocs\projet\c#\PPE_C-\PPE\ppeBO\bin\Debug\ppeBO.dll
+C:\xampp\htdocs\projet\c#\PPE_C-\PPE\ppeBO\bin\Debug\ppeBO.pdb
+C:\xampp\htdocs\projet\c#\PPE_C-\PPE\ppeBO\obj\Debug\ppeBO.csproj.AssemblyReference.cache
+C:\xampp\htdocs\projet\c#\PPE_C-\PPE\ppeBO\obj\Debug\ppeBO.csproj.CoreCompileInputs.cache
+C:\xampp\htdocs\projet\c#\PPE_C-\PPE\ppeBO\obj\Debug\ppeBO.dll
+C:\xampp\htdocs\projet\c#\PPE_C-\PPE\ppeBO\obj\Debug\ppeBO.pdb

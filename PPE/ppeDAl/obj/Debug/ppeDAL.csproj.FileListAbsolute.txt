@@ -1,0 +1,9 @@
+C:\xampp\htdocs\projet\c#\PPE_C-\PPE\ppeDAl\obj\Debug\ppeDAL.csproj.AssemblyReference.cache
+C:\xampp\htdocs\projet\c#\PPE_C-\PPE\ppeDAl\obj\Debug\ppeDAL.csproj.CoreCompileInputs.cache
+C:\xampp\htdocs\projet\c#\PPE_C-\PPE\ppeDAl\bin\Debug\ppeDAl.dll
+C:\xampp\htdocs\projet\c#\PPE_C-\PPE\ppeDAl\bin\Debug\ppeDAl.pdb
+C:\xampp\htdocs\projet\c#\PPE_C-\PPE\ppeDAl\bin\Debug\ppeBO.dll
+C:\xampp\htdocs\projet\c#\PPE_C-\PPE\ppeDAl\bin\Debug\ppeBO.pdb
+C:\xampp\htdocs\projet\c#\PPE_C-\PPE\ppeDAl\obj\Debug\ppeDAL.csproj.CopyComplete
+C:\xampp\htdocs\projet\c#\PPE_C-\PPE\ppeDAl\obj\Debug\ppeDAl.dll
+C:\xampp\htdocs\projet\c#\PPE_C-\PPE\ppeDAl\obj\Debug\ppeDAl.pdb
