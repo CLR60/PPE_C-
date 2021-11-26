@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace ppeDAL
 {
-    class Class2
+    class UtilisateurDAO
     {
+        
     }
 }

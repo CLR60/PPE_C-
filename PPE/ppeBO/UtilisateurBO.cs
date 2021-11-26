@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace ppeBO
 {
-    public class Class1
+    public class Utilisateur
     {
+        
     }
 }
