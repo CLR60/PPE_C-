@@ -14,6 +14,10 @@ namespace PPE_C_Sharp_BO
         public string Libelle { get => libelle; set => libelle = value; }
         public int Id { get => id; set => id = value; }
 
+        public Medicament()
+        {
+            
+        }
         public Medicament(int id, string libelle)
         {
             this.id = id;
@@ -23,6 +27,11 @@ namespace PPE_C_Sharp_BO
         public Medicament(string libelle)
         {
             this.libelle = libelle;
+        }
+        
+        public override string ToString()
+        {
+            return libelle;
         }
     }
 }

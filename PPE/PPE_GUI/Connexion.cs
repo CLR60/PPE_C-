@@ -10,6 +10,8 @@ using System.Windows.Forms;
 using System.Threading;
 using PPE_C_Sharp_BLL;
 using System.Configuration;
+using System.Diagnostics;
+using System.Reflection;
 
 namespace PPE_C_Sharp_GUI
 {
@@ -28,7 +30,7 @@ namespace PPE_C_Sharp_GUI
 
             if (GestionEleves.Authentificate(login, mdp))
             {
-                //MessageBox.Show("Fonctionne");
+                // MessageBox.Show("Fonctionne");
                 this.Close();
                 Thread th = new Thread(x => Application.Run(new Accueil()));
                 th.SetApartmentState(ApartmentState.STA);

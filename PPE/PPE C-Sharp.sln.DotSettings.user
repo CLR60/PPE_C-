@@ -1,3 +1,4 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=FA8CC8BF_002D4BE0_002D4E85_002D91BB_002DB41413649CA3_002Ff_003AGestionEleves_002Ecs/@EntryIndexedValue">ForceIncluded</s:String>
 	<s:Boolean x:Key="/Default/ResxEditorPersonal/CheckedGroups/=PPE_005FGUI_002FAjt_005Feleve/@EntryIndexedValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/ResxEditorPersonal/Initialized/@EntryValue">True</s:Boolean></wpf:ResourceDictionary>
