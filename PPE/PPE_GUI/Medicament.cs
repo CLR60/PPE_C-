@@ -41,8 +41,6 @@ namespace PPE_C_Sharp_GUI
             {
                 reloadDataGridAndLst();
             }
-            
-            
         }
 
         private void btn_ajt(object sender, EventArgs e)
@@ -85,17 +83,28 @@ namespace PPE_C_Sharp_GUI
             lst_spr_med.DataSource = liste;
 
             this.medicamentsList = liste;
-            this.selected = this.medicamentsList[0];
+            try
+            {
+                this.selected = this.medicamentsList[0];
+            }
+            catch
+            {
+                this.selected = new PPE_C_Sharp_BO.Medicament();
+            }
+
         }
 
         private void grid_med_CellClick(object sender, DataGridViewCellEventArgs e)
         {
             try
             {
-                this.selected = this.medicamentsList.SingleOrDefault(item => 
+                this.selected = this.medicamentsList.SingleOrDefault(item =>
                     item.Id == Int32.Parse(grid_med.Rows[e.RowIndex].Cells[1].FormattedValue.ToString()));
             }
-            catch { }
+            catch
+            {
+                
+            }
 
             lst_mdf_med.SelectedItem = this.selected;
             lst_spr_med.SelectedItem = this.selected;
